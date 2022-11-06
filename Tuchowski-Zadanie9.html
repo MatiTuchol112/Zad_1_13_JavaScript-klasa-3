@@ -1,0 +1,31 @@
+<!-- Mateusz Tuchowski 3F -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 9</title>
+</head>
+<body>
+<div style="color:green;font-size:53px;")>
+    <script language="JavaScript">
+    var dzien1=prompt("dzien 1=","");
+    var godzina1=prompt("godzina 1=","");
+    var dzien2=prompt("dzien 2=","");
+    var godzina2=prompt("godzina 2=","");
+    var ilosc_sekund_tuc;
+    var D1_tuc=parseFloat(dzien1);
+    var D2_tuc=parseFloat(dzien2);
+    var G1_tuc=parseFloat(godzina1);
+    var G2_tuc=parseFloat(godzina2);
+    ilosc_sekund_tuc=((D1_tuc*86400+G1_tuc*3600)-(D2_tuc*86400+G2_tuc*3600));
+    document.write("D1="+D1_tuc+"<br>");
+    document.write("G1="+G1_tuc+"<br>");
+    document.write("D2="+D2_tuc+"<br>");
+    document.write("G2="+G2_tuc+"<br>");
+    document.write("ilosc sekund="+ilosc_sekund_tuc+" sekund<br>");
+    </script>
+    </div>  
+</body>
+</html>
